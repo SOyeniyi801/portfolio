@@ -70,27 +70,33 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 
-## Samantha Oyeniyi's Portfolio
-# Description
+# Samantha Oyeniyi's Portfolio
+
+## Description
 This is a portfolio website created by Samantha Oyeniyi, a junior software front-end developer. The portfolio is built using React.
 
 ## Features
-### Navigation Bar: A navigation bar located at the top right corner with links for Home, About, Projects, and Contact.
-### Home Page: A home page with a greeting and animated text that types out "Front End Developer." The page also includes space for an image on the right side of the screen.
-### About Page: An about page with information about Samantha Oyeniyi's background, skills, and interests.
-### Projects Page: A projects page showcasing Samantha Oyeniyi's work with links to project demos or repositories.
-### Contact Page: A contact page with a form or contact information for reaching out to Samantha Oyeniyi.
+- **Navigation Bar:** A navigation bar located at the top right corner with links for Home, About, Projects, and Contact.
+- **Home Page:** A home page with a greeting and animated text that types out "Front End Developer." The page also includes space for an image on the right side of the screen.
+- **About Page:** An about page with information about Samantha Oyeniyi's background, skills, and interests.
+- **Projects Page:** A projects page showcasing Samantha Oyeniyi's work with links to project demos or repositories.
+- **Contact Page:** A contact page with a form or contact information for reaching out to Samantha Oyeniyi.
 
 ## Installation
 To run this project locally, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/portfolio.git
-Navigate to the project directory: cd portfolio
-Install dependencies: `npm install`
-Start the development server: `npm start`
-## Technologies Used
-React
-HTML/CSS
-JavaScript
+1. Clone the repository: `git clone https://github.com/your-username/portfolio.git`
+2. Navigate to the project directory: `cd portfolio`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm start`
 
+## Technologies Used
+- React
+- HTML/CSS
+- JavaScript
+
+## License
+
+
+## Acknowledgements
 

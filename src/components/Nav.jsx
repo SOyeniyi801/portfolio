@@ -4,21 +4,25 @@ import { Link } from 'react-router-dom';
 
 function Nav(){
     return(
-        <nav>
-            <ul>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/about">About</Link>
-                </li>
-                <li>
-                    <Link to="/projects">Projects</Link>
-                </li>
-                <li>
-                    <Link to="/contact">Contact</Link>
-                </li>
-            </ul>
+        <nav className='navbar bg-body-tertiary d-flex align-items-center '>
+            <div className='container'>
+            <img className="logo" src={process.env.PUBLIC_URL + '/elements/SO.svg'} alt="" />
+                <ul>
+                    <li className='nav-item'>
+                        <Link className="nav-link" to="/">Home</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link className="nav-link" to="/about">About</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link className="nav-link" to="/projects">Projects</Link>
+                    </li>
+                    <li className='nav-item'>
+                        <Link className="nav-link" to="/contact">Contact</Link>
+                    </li>
+                </ul>
+            </div>
+            
         </nav>
     )
     

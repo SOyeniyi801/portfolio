@@ -1,5 +1,7 @@
 body{
   font-family: "Nunito", sans-serif;
+  height: 100vh; /* Set full height of viewport */
+  margin: 0; /* Remove default margin */
 }
 
 .heading{
@@ -10,12 +12,29 @@ body{
 ul {
   list-style-type: none;
   padding: 0;
+  font-weight: bolder;
 }
 
 li {
   display: inline-block;
   margin: 0 10px;
 }
-img{
-  width:40%
+
+.nav-link {
+  text-decoration: none;
+}
+
+.profile_pic {
+ width: 35%;
+  border-radius: 20%; 
+}
+.logo{
+  max-width: 10%;
+}
+
+.container-home{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  margin-right: 0%;
 }

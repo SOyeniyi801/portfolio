@@ -4,8 +4,7 @@ function Home (){
     return (
         <>
          <Hero />
-        </>
-       
+        </> 
     )
 }
 

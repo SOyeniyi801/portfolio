@@ -16,7 +16,7 @@ function Hero (){
                 <button className="btn btn-primary"> Get in touch</button>
             </div>
             <div className="hero-section-image">
-                <img src="./elements/hero-image.png" alt="Hero Section" />
+                <img src="./assets/hero-image.png" alt="Hero Section" />
             </div>
         </section>
     )

@@ -6,10 +6,11 @@ function Navbar() {
 
     const toggleNav = () => {
         setNaveActive(!navActive)
-    }
+    };
+
     const closeMenu = () => {
         setNaveActive(false)
-    }
+    };
 
     useEffect(() => {
         const handleResize = () => {
@@ -34,9 +35,10 @@ function Navbar() {
     return(
         <nav className={`navbar ${navActive ? 'active' : ''}`}>
             <div>
-                <img className="logo" src="./elements/logo.svg" alt="logo" />
+                <img className="logo" src="./assets/logo.svg" alt="logo" />
             </div>
-            <a className={`nav_hamburger ${navActive ? 'active' : ''}`}
+            <a 
+                className={`nav_hamburger ${navActive ? 'active' : ''}`}
                 onClick={toggleNav}
             > 
             <span className="nav_hamburger_line"></span>
@@ -64,9 +66,9 @@ function Navbar() {
                             spy={true}
                             offset={-70}
                             duration={500}
-                            to="MyPortfolio"
+                            to="mySkills"
                             className="navbar-content"
-                            >Portfolio</Link>
+                            >My Skills</Link>
                     </li>
                     <li>
                         <Link 
@@ -78,7 +80,7 @@ function Navbar() {
                             to="AboutMe"
                             className="navbar-content"
                             >About Me</Link>
-                    </li>
+                    </li> 
                     <li>
                         <Link 
                             onClick={closeMenu} 
@@ -86,9 +88,9 @@ function Navbar() {
                             spy={true}
                             offset={-70}
                             duration={500}
-                            to="Testimonials"
+                            to="MyProjects"
                             className="navbar-content"
-                            >Testimonials</Link>
+                            >Projects</Link>
                     </li>
                 </ul>
             </div>

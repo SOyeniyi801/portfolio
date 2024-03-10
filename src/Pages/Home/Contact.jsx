@@ -103,6 +103,7 @@ function Contact() {
                         <span className="text-md">Message:</span>
                         <textarea  
                                 className="contact-input text-md" 
+                                name="message"
                                 id="message" 
                                 required
                                 rows="8"

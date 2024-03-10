@@ -2,6 +2,8 @@ import Hero from "../Hero";
 import Skills from "../Skils";
 import About from "../About";
 import Projects from "../Projects";
+import Contact from "../Contact";
+import Footer from "../Footer";
 
 function Home (){
     return (
@@ -10,6 +12,8 @@ function Home (){
          <Skills />
          <About />
          <Projects />
+         <Contact />
+         <Footer />
          
         </> 
     )
